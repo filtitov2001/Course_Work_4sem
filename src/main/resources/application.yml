@@ -1,0 +1,30 @@
+server:
+  port: 8081
+  error:
+    include-message: always
+    include-binding-errors: always
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/coursework
+    username: felikstitov
+    password: 12345678
+  jpa:
+    database: postgresql
+    show-sql: false
+    open-in-view: false
+    hibernate:
+      ddl-auto: create-drop
+  mail:
+    protocol: smtp
+    host: smtp.gmail.com
+    port: 587
+    username: servermail781227@gmail.com
+    password: Admin1905!
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+

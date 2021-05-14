@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Home page</title>
+    </head>
+    <body>
+    <form method="post" action="/logout">
+        <input type="submit" value="Sign Out"/>
+    </form>
+    {{#customers}}
+        <h2>Customer: {{customerName}}</h2>
+        <form method="post" action="/admin/{{id}}/delete">
+            <button type="submit">
+                Remove
+            </button>
+        </form>
+        <ul>
+            <h4>Orders:</h4>
+            {{#orders}}
+                <li>
+                    <form method="post" action="/order/{{id}}/delete">
+                        {{cakeName}} {{fillerName}} {{creamName}}
+                        <button type="submit">
+                            Remove
+                        </button>
+                    </form>
+                </li>
+            {{/orders}}
+        </ul>
+    {{/customers}}
+
+    </body>
+</html>

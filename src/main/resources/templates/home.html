@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="https://www.thymeleaf.org"
+      xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+    <meta charset="UTF-8">
+    <title>Главная страница</title>
+    <link href="static/test.css" th:href="@{/static/css/test.css}" rel="stylesheet" />
+</head>
+<body>
+    <div sec:authorize="isAuthenticated()">
+        Добро пожаловать!
+    </div>
+    <h1>Главная страница</h1>
+<button><a th:href="@{/contacts}">Переход</a></button>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Home page</title>
+    <link href="/css/test.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<H1>Добавление</H1>
+    <form name="addOrder" method="post" action="/order/add">
+        <label>
+            <input type="text" name="orderCakeName"
+                   placeholder="Cake name"/>
+        </label>
+        <label>
+            <input type="text" name="orderCreamName"
+                   placeholder="Cream name"/>
+        </label>
+        <label>
+            <input type="text" name="orderFillerName"
+                   placeholder="Filler name"/>
+        </label>
+        <label>
+            <input type="date" name="orderDate"
+                   placeholder="Date"/>
+        </label>
+        <label>
+            <input type="text" name="orderComment"
+                   placeholder="Comment"/>
+        </label>
+        <label>
+            <input type="text" name="customerName" placeholder="Customer name"/>
+        </label>
+        <label>
+            <input type="text" name="customerEmail" placeholder="Customer email"/>
+        </label>
+        <label>
+            <input type="text" name="customerNumber" placeholder="Customer number"/>
+        </label>
+        <button type="submit">Add</button>
+    </form>
+</body>
+</html>

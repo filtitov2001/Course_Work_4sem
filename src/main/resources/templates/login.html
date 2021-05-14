@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="https://www.thymeleaf.org"
+      xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+    <title>Вход</title>
+    <link rel="stylesheet" href="../static/css/login.css" th:href="@{/css/login.css}">
+    <link rel="shortcut icon" type="image/png" th:href="@{/icon/klipartz.com.png}"/>
+</head>
+<body>
+<form class="form" th:action="@{/login}" method="post">
+    <div style="margin-left: +25%; margin-top: 10px; color: red" th:if="${param.error}">
+        <h4>Неверное имя пользователя или пароль</h4>
+    </div>
+    <div style="margin-left: +38%; margin-top: 10px; color: red" th:if="${param.logout}">
+        <h4>Вы вышли из системы</h4>
+    </div>
+    <h1>Вход для администратора</h1>
+    <div th:class="input-form"><label><input type="text" name="username" placeholder="Имя пользователя"/> </label></div>
+    <div class="input-form"><label><input type="password" name="password" placeholder="Пароль"/> </label></div>
+    <div class="input-form"><input type="submit" value="Войти"/></div>
+</form>
+</body>
+</html>

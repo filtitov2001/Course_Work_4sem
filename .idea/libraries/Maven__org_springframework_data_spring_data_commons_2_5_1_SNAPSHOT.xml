@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.springframework.data:spring-data-commons:2.5.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.5.1-SNAPSHOT/spring-data-commons-2.5.1-20210513.101306-17.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.5.1-SNAPSHOT/spring-data-commons-2.5.1-20210513.101306-17-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.5.1-SNAPSHOT/spring-data-commons-2.5.1-20210513.101306-17-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
