@@ -14,7 +14,7 @@ spring:
     password: 12345678
   jpa:
     database: postgresql
-    show-sql: false
+    show-sql: true
     open-in-view: false
     hibernate:
       ddl-auto: create

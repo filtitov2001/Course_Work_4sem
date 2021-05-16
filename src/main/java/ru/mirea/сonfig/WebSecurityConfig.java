@@ -69,7 +69,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     public UserDetailsService userDetailsService() {
         UserDetails user =
                 User.withDefaultPasswordEncoder()
-                        .username("user")
+                        .username("admin")
                         .password(generate(8+(int) (Math.random() * 16)))
                         .roles(String.valueOf(Role.ADMIN))
                         .build();
