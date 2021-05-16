@@ -15,7 +15,6 @@
     <description>Course work 4 sem</description>
     <properties>
         <java.version>15</java.version>
-
     </properties>
     <dependencies>
         <dependency>
