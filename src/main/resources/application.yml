@@ -1,6 +1,9 @@
+upload:
+  path: "static"
 server:
   port: 8081
   error:
+    path: /error
     include-message: always
     include-binding-errors: always
 
@@ -14,7 +17,11 @@ spring:
     show-sql: false
     open-in-view: false
     hibernate:
-      ddl-auto: create-drop
+      ddl-auto: update
+  servlet:
+    multipart:
+      max-file-size: 800MB
+      max-request-size: 1024MB
   mail:
     protocol: smtp
     host: smtp.gmail.com

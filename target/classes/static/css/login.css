@@ -1,9 +1,17 @@
 body{
-  background-image: url('../images/main_bg.png');
+  background-image: url('../img/main_bg.png');
   -webkit-background-size: cover;
   background-size: cover;
   background-attachment: fixed;
   font-family: sans-serif;
+}
+h3{
+  margin: 30px 100px;
+  padding: 0;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  text-transform: uppercase;
 }
 .form {
   position: absolute;
@@ -11,6 +19,7 @@ body{
   left: 50%;
   transform: translate(-50%,-50%);
   background: rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
 }
 .form h1{
   margin: 30px 100px;
@@ -50,9 +59,14 @@ body{
   border: none;
   background: #0fc3f5;
   transition: .3s;
+  border-radius: 5px;
 }
 
 
 .input-form input[type="submit"]:hover{
   background: #4442db;
+}
+.image{
+  background-image: url('../img/error.png');
+  margin-left: 200px;
 }

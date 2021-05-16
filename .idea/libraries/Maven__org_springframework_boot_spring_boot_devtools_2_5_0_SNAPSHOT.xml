@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.springframework.boot:spring-boot-devtools:2.5.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-devtools/2.5.0-SNAPSHOT/spring-boot-devtools-2.5.0-20210514.140110-523.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-devtools/2.5.0-SNAPSHOT/spring-boot-devtools-2.5.0-20210514.140110-523-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-devtools/2.5.0-SNAPSHOT/spring-boot-devtools-2.5.0-20210514.140110-523-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

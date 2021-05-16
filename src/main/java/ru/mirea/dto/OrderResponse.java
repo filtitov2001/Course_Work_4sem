@@ -24,5 +24,6 @@ public class OrderResponse {
     @NotBlank
     private String date;
     private String comment;
+    private String image;
 
 }

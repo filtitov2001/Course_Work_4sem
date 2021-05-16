@@ -1,43 +1,182 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="utf-8">
-    <title>Home page</title>
-    <link href="/css/test.css" type="text/css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" th:href="@{/css/bootstrap.min.css}">
+    <link rel="stylesheet" href="css/zakaz.css" th:href="@{/css/zakaz.css}">
+    <link rel="shortcut icon" type="image/png"  href="/icon/klipartz.com.png" th:href="@{/icon/klipartz.com.png}"/>
+    <title>Сделать заказ</title>
 </head>
 <body>
-<H1>Добавление</H1>
-    <form name="addOrder" method="post" action="/order/add">
-        <label>
-            <input type="text" name="orderCakeName"
-                   placeholder="Cake name"/>
-        </label>
-        <label>
-            <input type="text" name="orderCreamName"
-                   placeholder="Cream name"/>
-        </label>
-        <label>
-            <input type="text" name="orderFillerName"
-                   placeholder="Filler name"/>
-        </label>
-        <label>
-            <input type="date" name="orderDate"
-                   placeholder="Date"/>
-        </label>
-        <label>
-            <input type="text" name="orderComment"
-                   placeholder="Comment"/>
-        </label>
-        <label>
-            <input type="text" name="customerName" placeholder="Customer name"/>
-        </label>
-        <label>
-            <input type="text" name="customerEmail" placeholder="Customer email"/>
-        </label>
-        <label>
-            <input type="text" name="customerNumber" placeholder="Customer number"/>
-        </label>
-        <button type="submit">Add</button>
-    </form>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<div id="top">
+    <header class="header">
+
+        <ul class="nav justify-content-center">
+            <li class="nav-item" style="margin-top: 10px; color: white">
+                <a class="nav-link" href="tel: 89269269417"><span class="fas fa-phone-alt" style="color: white"></span>
+                    <span class="text" style="color: white">8-926-926-94-17</span></a>
+            </li>
+            <li class="nav-item" style="margin-top: 10px; color: white">
+                <hr align="center" width="100" size="1" style="color: white"/>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" th:href="@{/}">
+                    <span class="text-title" style="color: #e8b84c"><h1>CAKES</h1></span></a>
+            </li>
+            <li class="nav-item" style="margin-top: 10px; color: white">
+                <hr align="center" width="100" size="1" style="color: white"/>
+            </li>
+            <li class="nav-item" style="margin-top: 10px; color: white">
+                <a class="nav-link" ><span class="fas fa-city" style="color: white"></span>
+                    <span class="text" style="color: white">Москва</span></a>
+            </li>
+            <!--      <li class="nav-item">
+                      <a class="nav-link" href="Login.html"><span class="fas fa-user-shield"></span>
+                          <span class="text">Войти</span></a>
+                  </li>-->
+        </ul>
+        <center>
+            <div id="menu">
+                <div class="container">
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item"><a class="nav-link" href="/how-do-it" th:href="@{/how-do-it}">Как мы это делаем</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/gallery" th:href="@{/gallery}">Наши торты</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/create" th:href="@{/create}">Заказать торт</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/delivery" th:href="@{/delivery}">Оплата и доставка</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/contacts" th:href="@{/contacts}">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+        </center>
+    </header>
+    <div id="tort">
+        <img src="img/devCake.png" th:src="@{img/devCake.png}">
+    </div>
+</div>
+<div id="back">
+    <div id="pridumat">
+        <center><h1>ПРИДУМАТЬ ТОРТ</h1>
+            <p>По вашему желанию мы можем изменить отдельные детали любого торта из каталога или приготовить эксклюзивный торт с учетом ваших пожеланий, в том числе оригинальные подарки на день рождения. Мы сделаем торт уникальным, и он будет подходить именно для Вашего праздника. Вы можете сами придумать, например, свадебные торты на заказ или торты на заказ детские.</p>
+        </center>
+    </div>
+
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <center><img src="img/timeIcon.png" th:src="@{img/timeIcon.png}" alt=""></center>
+    <center><h1>Заполните форму заказа</h1></center>
+    <div id="forma">
+
+        <form name="addOrder" method="post" action="/order/add" enctype="multipart/form-data">
+            <label>
+                <p id="korj">Корж: </p>
+                <select class="select2 select2-offscreen" name="orderCakeName" tabindex="-1" title="">
+                    <option value="Ванильный бисквит">Ванильный бисквит</option>
+                    <option value="Классический бисквит">Классический бисквит</option>
+                    <option value="Лимонный бисквит">Лимонный бисквит</option>
+                    <option value="Медовый бисквит">Медовый бисквит</option>
+                    <option value="Медовые коржи">Медовые коржи</option>
+                    <option value="Шоколадный бисквит">Шоколадный бисквит</option>
+                    <option value="Морковный бисквит">Морковный бисквит</option>
+                    <option value="Обсудить с кондитером">Обсудить с кондитером</option>
+                </select>
+            </label>
+            <br>
+            <label>
+                <p id="krem">Крем: </p>
+                <select class="select2 select2-offscreen" name="orderCreamName" tabindex="-1" title="" size=1>
+                    <option value="Варёное сгущённое молоко со сливочным маслом">Варёное сгущённое молоко со сливочным маслом</option>
+                    <option value="Легкий сливочно-творожный крем на основе творожного сыра с натуральными сливками">Легкий сливочно-творожный крем на основе творожного сыра с натуральными сливками</option>
+                    <option value="Нежное сливочно-йогуртовое суфле с натуральным йогуртом">Нежное сливочно-йогуртовое суфле с натуральным йогуртом</option>
+                    <option value="Нежный сливочный крем из натуральных коровьих сливок">Нежный сливочный крем из натуральных коровьих сливок</option>
+                    <option value="Сливочно-сметанный крем из натуральных сливок и свежей сметаны">Сливочно-сметанный крем из натуральных сливок и свежей сметаны</option>
+                    <option value="Крем-чиз">Крем-чиз</option>
+                    <option value="Шоколадный крем (на основе сливочного с добавлением шоколада)">Шоколадный крем (на основе сливочного с добавлением шоколада)</option>
+                    <option value="Фисташковый на основе творожного сыра с крошкой из шоколада и фисташки">Фисташковый на основе творожного сыра с крошкой из шоколада и фисташки</option>
+                    <option value="Обсудить с кондитером">Обсудить с кондитером</option></select>
+            </label>
+            <br>
+            <label>
+                <p id="napol">Наполнитель: </p>
+                <select class="select2 select2-offscreen" name="orderFillerName" tabindex="-1" title="">
+                    <option value="Грецкие орехи, курага, чернослив">Грецкие орехи, курага, чернослив</option>
+                    <option value="Клубника, перетертая с сахаром">Клубника, перетертая с сахаром</option>
+                    <option value="Кусочки свежего банана">Кусочки свежего банана</option>
+                    <option value="Кусочки свежего киви">Кусочки свежего киви</option>
+                    <option value="Вишня, перетертая с сахаром">Вишня, перетертая с сахаром</option>
+                    <option value="Черная смородина, перетертая с сахаром">Черная смородина, перетертая с сахаром</option>
+                    <option value="Малина, перетертая с сахаром">Малина, перетертая с сахаром</option>
+                    <option value="Арахис и карамель">Арахис и карамель</option>
+                    <option value="Обсудить с кондитером">Обсудить с кондитером</option>
+                </select>
+            </label>
+            <br>
+                <p id="data">Дата: </p>
+                <input id="start" type="date" name="orderDate"
+                       placeholder="Date" value="2021-05-01"
+                       min="2021-01-01"/>
+            <br>
+                <p id="name">Ваше имя: <span class="colortext">*</span></p>
+                <input type="text" name="customerName" placeholder="Ваше ФИО"/>
+            <br>
+                <p id="mail">Ваш email: <span class="colortext">*</span></p>
+                <input type="email" name="customerEmail" placeholder="Ваш E-mail"/>
+            <br>
+                <p id="num">Ваш номер: <span class="colortext">*</span></p>
+                <input type="tel" id="phone" name="customerNumber" placeholder="Ваш Номер"/>
+            <p id="kom">Комментарий: </p>
+            <textarea name="orderComment" placeholder="Комментарий"></textarea>
+
+
+            <label>
+                <input type="file" class="form-control" id="file" name="file">
+            </label>
+            <div class="offer"><span class="colortext">*</span>
+                </span> Отправляя заполненную форму, Вы даете согласие на обработку Ваших персональных данных в соответствии с Федеральным законом № 152-ФЗ от 27.07.2006 г.
+            </div>
+            <center>
+
+            <button class="button" type="submit"><span>Отправить</span><span>Отправить</button></center>
+        </form>
+    </div>
+</div>
+<div id="footer">
+    <div class="main-content">
+        <div class="left box">
+            <h2 style="color: white">Социальные сети</h2>
+            <div class="content">
+                <p style="color: white">Вы можете найти нас в социальных сетях</p>
+                <div class="social">
+                    <a href="https://www.facebook.com"><span class="fab fa-facebook-f" style="color: white"></span></a>
+                    <a href="https://www.twitter.com/"><span class="fab fa-twitter" style="color: white"></span></a>
+                    <a href="https://www.instagram.com/vovan_mx188"><span class="fab fa-instagram" style="color: white">
+
+                    </span></a>
+                    <a href="https://www.youtube.com/"><span class="fab fa-youtube" style="color: white"></span></a>
+                </div>
+            </div>
+        </div>
+        <div class="center box">
+            <h2 style="color: white">Контакты</h2>
+            <div class="content">
+                <p style="color: white">Свяжитесь с нами</p>
+                <div class="place">
+                    <a th:href="@{/contacts}" href="/contacts"><span class="fas fa-map-marker-alt" style="color: white"></span>
+                        <span class="text" style="color: white">Москва</span></a>
+                </div>
+                <div class="phone">
+                    <a href="tel: 89269269417"><span class="fas fa-phone-alt" style="color: white"></span>
+                        <span class="text" style="color: white">8-926-926-94-17</span></a>
+                </div>
+                <div class="email">
+                    <a href="mailto: sychev_188@mail.ru" ><span class="fas fa-envelope" style="color: white"></span>
+                        <span class="text" style="color: white">sychev_188@mail.ru</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 </body>
 </html>

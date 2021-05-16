@@ -1,11 +1,112 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html lang="en" dir="ltr" xmlns:th="http://www.thymeleaf.org">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css" th:href="@{/css/bootstrap.min.css}">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/how.css" th:href="@{/css/how.css}">
+    <link rel="shortcut icon" type="image/png" th:href="@{/icon/klipartz.com.png}"/>
     <title>Как мы это делаем</title>
 </head>
 <body>
-<H1>Как мы это делаем</H1>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<div id="top">
+    <header class="header">
+
+        <ul class="nav justify-content-center">
+            <li class="nav-item" style="margin-top: 10px; color: white">
+                <a class="nav-link" href="tel: 89269269417"><span class="fas fa-phone-alt" style="color: white"></span>
+                    <span class="text" style="color: white">8-926-926-94-17</span></a>
+            </li>
+            <li class="nav-item" style="margin-top: 10px; color: white">
+                <hr align="center" width="100" size="1" style="color: white"/>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" th:href="@{/}">
+                    <span class="text-title" style="color: #e8b84c"><h1>CAKES</h1></span></a>
+            </li>
+            <li class="nav-item" style="margin-top: 10px; color: white">
+                <hr align="center" width="100" size="1" style="color: white"/>
+            </li>
+            <li class="nav-item" style="margin-top: 10px; color: white">
+                <a class="nav-link" ><span class="fas fa-city" style="color: white"></span>
+                    <span class="text" style="color: white">Москва</span></a>
+            </li>
+      <!--      <li class="nav-item">
+                <a class="nav-link" href="Login.html"><span class="fas fa-user-shield"></span>
+                    <span class="text">Войти</span></a>
+            </li>-->
+        </ul>
+        <center>
+            <div id="menu">
+                <div class="container">
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item"><a class="nav-link" th:href="@{/how-do-it}">Как мы это делаем</a></li>
+                        <li class="nav-item"><a class="nav-link" th:href="@{/gallery}">Наши торты</a></li>
+                        <li class="nav-item"><a class="nav-link" th:href="@{/create}">Заказать торт</a></li>
+                        <li class="nav-item"><a class="nav-link" th:href="@{/delivery}">Оплата и доставка</a></li>
+                        <li class="nav-item"><a class="nav-link" th:href="@{/contacts}">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+        </center>
+    </header>
+    <div id="tort">
+        <img src="img/devCake.png" th:src="@{img/devCake.png}">
+    </div>
+</div>
+<center><div id="how">
+    <h1> Как мы это делаем </h1>
+    <center><img src="img/timeIcon.png" th:src="@{img/timeIcon.png}" alt=""></center>
+    <p>Мы гордимся тем, что смогли добиться потрясающих вкусов начинок для тортов не прибегая к химии. И, конечно, нам очень приятно, что многие считают наши торты настоящим произведением искусства.</p>
+    <p>Ежедневно кондитеры компании CAKES готовят десятки разных, вкусных и красивых десертов, каждый из которых может смело претендовать на звание «лучший торт в мире»! Вне зависимости от сложности и стоимости заказа, специалисты неукоснительно придерживаются одинаковых правил.</p>
+    <ul>
+        <li>В процессе создания кулинарных шедевров используются только свежие, натуральные ингредиенты. Всегда! Мы сотрудничаем только с надежными, проверенными поставщиками, поэтому можем гарантировать, что в состав торта не войдет ни один вредный или запрещенный компонент.</li>
+        <li>Клиент может выбрать любой десерт из нашего каталога или предложить свою идею оригинального оформления торта. Мы идем навстречу каждому и стараемся реализовать даже самые необычные замыслы.</li>
+        <li>Одно из наших основных преимуществ – аккуратность и внимательность. Мы не перепутаем заявки и приготовим заказанный десерт точно к обозначенному сроку. Тысячи заказчиков успели убедиться в нашем профессионализме, и главным проявлением благодарности являются их последующие обращения.</li>
+    </ul>
+    <p>Торты от компании CAKES по многим параметрам отличаются от магазинных аналогов и других производителей тематических тортов</p>
+    <br><br><br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/KjQVBxo87Cc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></center>
+
+<div id="footer">
+    <div class="main-content">
+        <div class="left box">
+            <h2 style="color: white">Социальные сети</h2>
+            <div class="content">
+                <p style="color: white">Вы можете найти нас в социальных сетях</p>
+                <div class="social">
+                    <a href="https://www.facebook.com"><span class="fab fa-facebook-f" style="color: white"></span></a>
+                    <a href="https://www.twitter.com/"><span class="fab fa-twitter" style="color: white"></span></a>
+                    <a href="https://www.instagram.com/vovan_mx188"><span class="fab fa-instagram" style="color: white">
+
+                    </span></a>
+                    <a href="https://www.youtube.com/"><span class="fab fa-youtube" style="color: white"></span></a>
+                </div>
+            </div>
+        </div>
+        <div class="center box">
+            <h2 style="color: white">Контакты</h2>
+            <div class="content">
+                <p style="color: white">Свяжитесь с нами</p>
+                <div class="place">
+                    <a th:href="@{/contacts}"><span class="fas fa-map-marker-alt" style="color: white"></span>
+                        <span class="text" style="color: white">Москва</span></a>
+                </div>
+                <div class="phone">
+                    <a href="tel: 89269269417"><span class="fas fa-phone-alt" style="color: white"></span>
+                        <span class="text" style="color: white">8-926-926-94-17</span></a>
+                </div>
+                <div class="email">
+                    <a href="mailto: sychev_188@mail.ru" ><span class="fas fa-envelope" style="color: white"></span>
+                        <span class="text" style="color: white">sychev_188@mail.ru</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 </body>
 </html>

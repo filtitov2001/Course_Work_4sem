@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+html, body {
+height: 100%;
+width: 100%;
+margin: 0;
+padding: 0;
+position: relative;
+font: 14px/18px 'PT Sans';
+color: #404040;
+min-width: 940px; }
+.two {
+    border: none; /* Убираем границу */
+    background-color: #ff0000; /* Цвет линии */
+    color: #ff0000; /* Цвет линии для IE6-7 */
+    height: 3px; /* Толщина линии */
+}
+hr {
+    border: none; /* Убираем границу */
+    background-color: white; /* Цвет линии */
+    color: white; /* Цвет линии для IE6-7 */
+    height: 3px; /* Толщина линии */
+}
+.text-title{
+  font: Marker Felt, fantasy;
+  font-weight:bold;
+  color:red;
+  border-bottom: 5px solid #ccc;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+}
+a{
+  font-family: "Lobster";
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+
+}
+#menu a:hover{
+  color:grey;
+  text-decoration: underline;
+}
+#menu  a{
+  font-size: 20px;
+  margin-top:15px;
+}
+
+#menu .col{
+  margin-top:15px;
+}
+#top {
+  height: 1080px;
+    background: url("../img/main_bg.png");
+    background-color: #babec1;
+    background-size: cover;
+    color:white;
+    text-align: center;
+}
+
+#menu{
+  margin-left: 70px;
+  height: 100px;
+  width: 1080px;
+  background: url("../img/bg.png");
+}
+#menu .row{
+  padding-left: 10px;
+  width: 1080px;
+}
+
+#about  img {
+  height: 50px;
+  width: 50px;
+}
+#about  .container{
+  margin-top: 10px;
+}
+#about{
+  background: url("../img/01_pattern.jpg") 50% 50% repeat;
+}
+  #about:before{
+    background: url("../img/01_pattern.jpg") 50% 50% repeat;
+  }
+  #about:after{
+    background: url("../img/01_pattern.jpg") 50% 50% repeat;
+  }
+
+
+.button {
+  background: #a13d3d;
+  display: inline-block;
+  vertical-align: top;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Intro';
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  border: 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  overflow: hidden;
+  height: 60px;
+  width: 180px;
+  position: relative; }
+.button:hover span {
+  top: 100%; }
+.button:hover span + span {
+  top: 0; }
+.button span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 20px 0 18px;
+  width: 180px;
+  transition: all 0.3s;
+  height: 60px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+.button span + span {
+  top: -100%; }
+
+#how-to  img {
+  height: 150px;
+  width: 800px;
+}
+#how_galery{
+  background: url("../img/back.png") 50% 100% repeat;
+  background: url("../img/01_pattern.jpg") 50% 50% repeat;
+  background-attachment: fixed;
+
+}
+#how_galery:before{
+  position: absolute;
+  background: url("../img/01_pattern.jpg") 50% 50% repeat;
+}
+#how_galery:after{
+  position: absolute;
+  background: url("../img/01_pattern.jpg") 50% 50% repeat;
+}
+/* contacts */
+#contacts{
+  margin-top: 10px;
+
+  background-blend-mode: multiply;
+  background-color: #545255;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color:#fff;
+  border-top:2px solid #000;
+  text-align: center;
+}
+#contacts .content{
+  background-image: url(http://www.tortoeshka.ru/DESIGN/SITE/images/yagodsNNNada.png);
+  background-attachment: fixed;
+}
+#contacts h3,h2,p,label{
+  color: black;
+}
+#contacts .content{
+  outline: 2px solid #000;
+}
+
+#galery{
+  border-top:  2px solid silver;
+  padding-bottom: 50px;
+    margin-top: 10px;
+}
+
+#contacts label{
+  color: brown;
+}
+#contacts p{
+  color: brown;
+}
+/* footer */
+#footer {
+    background: url("../img/03_pattern.jpg");
+    background-color:#fff;
+    border-top: 2px dashed silver;
+    width: 100%;
+    float: left;
+}
+.main-content {
+    display: flex;
+}
+.main-content .box{
+    flex-basis:50%;
+    padding: 10px 20px;
+}
+.box h2{
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.box .content {
+    margin: 20px 0 0 0;
+    position: relative;
+}
+.box .content:before{
+    position: absolute;
+    content: '';
+    top:-10px;
+    height: 2px;
+    width: 100%;
+    background: #f12020;;
+}
+
+.left .content p {
+    text-align: justify;
+}
+.left .content .social {
+    margin: 20px 0 0 0;
+}
+.left .content .social a {
+    padding: 0 2px;
+}
+.left .content .social a span {
+    height:40px;
+    width: 40px;
+    color: black;
+    background: #916e6e;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 1s;
+}
+.left .content .social a span:hover{
+    background:#c15443;
+}
+.center .content .fas {
+    font-size: 1.4375rem;
+    background: #916e6e;
+    color:black;
+    height: 45px;
+    line-height: 45px;
+    width: 45px;
+    text-align: center;
+    border-radius: 50%;
+    transition: 1s;
+    cursor: pointer;
+}
+.center .content a {
+    color:black;
+    text-decoration: none;
+}
+.center .content a:hover {
+    color:#c15443;
+    transition: 1s;
+}
+.center .content .fas:hover {
+    background: #c15443;
+}
+.center .content .text{
+    font-size: 1.0625rem;
+    font-weight: 500;
+    padding-left: 10px;
+
+}
+.center .content .place{
+    margin:10px 0
+}
+.center .content .phone{
+    margin:10px 0
+}
+.right .content .form{
+    margin: 10px 0 0 0;
+}
+#mess_send{
+  color:red;
+}
+
+
+.regButton {
+background: #fff;
+border: 1px solid #ccc;
+border-radius: 3px;
+padding: 6px 24px;
+cursor: pointer;
+}
+
+.regButton:hover {
+background: #ccc;
+}

@@ -31,7 +31,7 @@ public class EmailService implements NotifyService{
     public void send(String message, String mailTo) {
         SimpleMailMessage mailMessage = new SimpleMailMessage();
         mailMessage.setFrom(username);
-        mailMessage.setTo(mailTo);
+        mailMessage.setTo(mailTo,username);
         mailMessage.setSubject("Принят заказ");
         mailMessage.setText(message);
         sender.send(mailMessage);

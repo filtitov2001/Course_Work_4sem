@@ -28,6 +28,11 @@ public class MainController {
     public String getCreate() {
         return "create";
     }
+    @GetMapping("/gallery")
+    public String getGallery() {
+        return "gallery/gallery";
+    }
+
 
 }
 

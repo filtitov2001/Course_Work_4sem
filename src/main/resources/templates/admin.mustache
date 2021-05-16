@@ -1,34 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Home page</title>
-    </head>
-    <body>
-    <form method="post" action="/logout">
-        <input type="submit" value="Sign Out"/>
-    </form>
-    {{#customers}}
-        <h2>Customer: {{customerName}}</h2>
-        <form method="post" action="/admin/{{id}}/delete">
-            <button type="submit">
-                Remove
-            </button>
-        </form>
-        <ul>
-            <h4>Orders:</h4>
-            {{#orders}}
-                <li>
-                    <form method="post" action="/order/{{id}}/delete">
-                        {{cakeName}} {{fillerName}} {{creamName}}
-                        <button type="submit">
-                            Remove
-                        </button>
-                    </form>
-                </li>
-            {{/orders}}
-        </ul>
-    {{/customers}}
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <title>Администратор</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" th:href="@{/css/bootstrap.min.css}">
+    <link rel="stylesheet" href="css/admin.css" th:href="@{/css/admin.css}">
+    <link rel="shortcut icon" type="image/png"  href="/icon/klipartz.com.png" th:href="@{/icon/klipartz.com.png}"/>
 
-    </body>
+</head>
+<body>
+<form class="input-form" method="post" action="/logout">
+    <input type="submit" value="Выйти"/>
+</form>
+
+<div class="form">
+{{#customers}}
+    <h2>Заказчик: {{customerName}}</h2>
+    <a style="text-decoration: none" href="mailto: {{customerEmail}}"><h3>E-mail: {{customerEmail}}</h3></a>
+    <a style="text-decoration: none" href="tel: customerNumber"><h3>Телефон: {{customerNumber}}</h3></a>
+    <form class="delete" method="post" action="/admin/{{id}}/delete">
+        <input  type="submit" value="Удалить"/>
+    </form>
+        {{#orders}}
+            <h4>Заказ:</h4>
+                 <form class="delete_o" style="margin-top: -5px" method="post" action="/order/{{id}}/delete">
+                    <table style="border: 3px">
+                        <tr style="border: 3px; color: white">
+                            <td>Корж</td>
+                            <td>Наполнитель</td>
+                            <td>Крем</td>
+                            <td>Дата</td>
+                            <td>Комментарий</td>
+                            <<td>Фотография</td>
+                        </tr>
+                        <tr style="border: 3px; color: white; margin: 10px;">
+                            <td ><p style="margin: 10px">{{cakeName}}</p></td>
+                            <td><p style="margin: 10px">{{fillerName}}</p></td>
+                            <td><p style="margin: 10px">{{creamName}}</p></td>
+                            <td><p style="margin: 10px">{{date}}</p></td>
+                            <td style="width: 150px"><p style="margin: 10px; width: 150px; word-wrap: break-word">
+                                {{comment}}</p></td>
+                            <<td><img src="../images/{{image}}"></td>
+                        </tr>
+                    </table>
+                     <input type="submit" value="Удалить"/>
+                 </form>
+        {{/orders}}
+
+{{/customers}}
+    {{^customers}}
+        <h2>Заказов нет</h2>
+    {{/customers}}
+</div>
+
+</body>
 </html>

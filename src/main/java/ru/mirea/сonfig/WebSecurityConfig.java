@@ -35,7 +35,6 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     }
 
     public static String generate(int length) {
-       // EmailService mail = new EmailService();
         StringBuilder password = new StringBuilder(length);
         Random random = new Random(System.nanoTime());
 
@@ -53,19 +52,17 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .csrf().disable()
                 .cors().disable()
                 .authorizeRequests()
-                .antMatchers("/", "/contacts","/delivery","/how-do-it","/create","/orders/*","/order/add")
+                .antMatchers("/", "/contacts","/delivery","/how-do-it","/create","/orders/*","/order/add",
+                        "/gallery")
                 .permitAll()
-          //      .antMatchers("/resources/**")
-            //    .permitAll()
                 .anyRequest().authenticated()
                 .and()
                     .formLogin()
                     .loginPage("/login")
                 .permitAll()
                 .and()
-                    .logout()
-                //  .logoutSuccessUrl("/logout")
-                    .permitAll();
+                    .logout(logout -> logout.deleteCookies());
+
     }
     @Bean
     @Override
@@ -83,7 +80,8 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     public void configure(WebSecurity web) throws Exception {
         web
                 .ignoring()
-                .antMatchers("/resources/**", "/static/**", "/css/**", "/js/**", "/images/**", "/icon/**");
+                .antMatchers("/resources/**", "/static/**", "/css/**", "/js/**", "/img/**", "/icon/**",
+                        "/images/**");
     }
 
 }

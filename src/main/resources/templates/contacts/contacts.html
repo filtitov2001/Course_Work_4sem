@@ -1,11 +1,127 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html lang="en" dir="ltr" xmlns:th="http://www.thymeleaf.org">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <title>Контакты</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css" th:href="@{/css/bootstrap.min.css}">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/contacts.css" th:href="@{/css/contacts.css}">
+    <link rel="shortcut icon" type="image/png" th:href="@{/icon/klipartz.com.png}"/>
 </head>
 <body>
-    <H1>Здесь будут контакты</H1>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<div id="top">
+    <header class="header">
+
+        <ul class="nav justify-content-center">
+            <li class="nav-item" style="margin-top: 10px; color: white">
+                <a class="nav-link" href="tel: 89269269417"><span class="fas fa-phone-alt" style="color: white"></span>
+                    <span class="text" style="color: white">8-926-926-94-17</span></a>
+            </li>
+            <li class="nav-item" style="margin-top: 10px; color: white">
+                <hr align="center" width="100" size="1" style="color: white"/>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" th:href="@{/}">
+                    <span class="text-title" style="color: #e8b84c"><h1>CAKES</h1></span></a>
+            </li>
+            <li class="nav-item" style="margin-top: 10px; color: white">
+                <hr align="center" width="100" size="1" style="color: white"/>
+            </li>
+            <li class="nav-item" style="margin-top: 10px; color: white">
+                <a class="nav-link" ><span class="fas fa-city" style="color: white"></span>
+                    <span class="text" style="color: white">Москва</span></a>
+            </li>
+            <!--      <li class="nav-item">
+                      <a class="nav-link" href="Login.html"><span class="fas fa-user-shield"></span>
+                          <span class="text">Войти</span></a>
+                  </li>-->
+        </ul>
+        <center>
+            <div id="menu">
+                <div class="container">
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item"><a class="nav-link" th:href="@{/how-do-it}">Как мы это делаем</a></li>
+                        <li class="nav-item"><a class="nav-link" th:href="@{/gallery}">Наши торты</a></li>
+                        <li class="nav-item"><a class="nav-link" th:href="@{/create}">Заказать торт</a></li>
+                        <li class="nav-item"><a class="nav-link" th:href="@{/delivery}">Оплата и доставка</a></li>
+                        <li class="nav-item"><a class="nav-link" th:href="@{/contacts}">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+        </center>
+    </header>
+    <div id="tort">
+        <img src="img/devCake.png" th:src="@{img/devCake.png}">
+    </div>
+</div>
+<div id="mapa">
+    <h1> Мы на карте </h1>
+    <center>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1587.6134700432149!2d37.621713795016774!3d55.75460220786219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a598b4552fd%3A0xd2f2265b70fe6a05!2z0JPQo9Cc!5e0!3m2!1sru!2sru!4v1606257595503!5m2!1sru!2sru" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </center>
+</div>
+
+<div class="contactTemplate">
+    <table>
+        <tbody>
+        <tr>
+            <td>
+                <h2>Москва</h2>
+                <h3><a href="#" class="mapMarker" data-ccoords="" data-icoords="56.760274,60.565492" data-zoom="16" data-address="Кондитерская">Кондитерская CAKES </a>
+                </h3>
+                <p class="grey">г. Москва,Красная пл., 3</p>
+                <br>
+                <p>Режим работы:</p>
+                <p>Прием заказов ежедневно с 10.00 до 18.00 на сайте, по телефону и в социальных сетях.</p>
+                <p>Выдача заказов с пн по сб с 10.00 до 18.00 по адресу г. Москва,Красная пл., 3</p><p>Доставка с пн по сб с 08.00 до 20.00.</p>
+                <br>
+                <p>e-mail: <a href="mailto:sychev_188.ru">sychev_188@mail.ru</a></p>
+                <p class="phone">8-926-926-94-17</p>
+                <br>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<div id="footer">
+    <div class="main-content">
+        <div class="left box">
+            <h2 style="color: white">Социальные сети</h2>
+            <div class="content">
+                <p style="color: white">Вы можете найти нас в социальных сетях</p>
+                <div class="social">
+                    <a href="https://www.facebook.com"><span class="fab fa-facebook-f" style="color: white"></span></a>
+                    <a href="https://www.twitter.com/"><span class="fab fa-twitter" style="color: white"></span></a>
+                    <a href="https://www.instagram.com/vovan_mx188"><span class="fab fa-instagram" style="color: white">
+
+                    </span></a>
+                    <a href="https://www.youtube.com/"><span class="fab fa-youtube" style="color: white"></span></a>
+                </div>
+            </div>
+        </div>
+        <div class="center box">
+            <h2 style="color: white">Контакты</h2>
+            <div class="content">
+                <p style="color: white">Свяжитесь с нами</p>
+                <div class="place">
+                    <a th:href="@{/contacts}"><span class="fas fa-map-marker-alt" style="color: white"></span>
+                        <span class="text" style="color: white">Москва</span></a>
+                </div>
+                <div class="phone">
+                    <a href="tel: 89269269417"><span class="fas fa-phone-alt" style="color: white"></span>
+                        <span class="text" style="color: white">8-926-926-94-17</span></a>
+                </div>
+                <div class="email">
+                    <a href="mailto: sychev_188@mail.ru" ><span class="fas fa-envelope" style="color: white"></span>
+                        <span class="text" style="color: white">sychev_188@mail.ru</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 </body>
 </html>

@@ -1,0 +1,98 @@
+.input-form input[type="submit"]{
+    margin-top: 20px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    background: #0fc3f5;
+    transition: .3s;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+
+.input-form input[type="submit"]:hover{
+    background: #4442db;
+}
+body{
+    background-image: url('../img/main_bg.png');
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+
+.form {
+    position: absolute;
+    top: 70px;
+    left: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+
+}
+h2{
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+h3{
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+h4{
+    color: white;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.delete input[type="submit"]{
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    background: #0fc3f5;
+    transition: .3s;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+
+.delete input[type="submit"]:hover{
+    background: #4442db;
+}
+td{
+    border-width: 3px;
+    border-style: solid;
+    border-color: #0fc3f5;
+}
+table{
+    margin-left: 30px;
+    margin-top: -5px;
+}
+img{
+    height: 250px;
+    width: 300px;
+    margin: 10px;
+}
+.delete_o input[type="submit"]{
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    background: #0fc3f5;
+    transition: .3s;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 1450px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+}
+
+
+.delete_o input[type="submit"]:hover{
+    background: #4442db;
+}

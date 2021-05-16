@@ -18,6 +18,7 @@ public class DtoConverter {
             response.setFillerName(order.getFillerName());
             response.setDate(order.getDate());
             response.setComment(order.getComment());
+            response.setImage(order.getImage());
             return response;
         }).collect(Collectors.toList());
     }

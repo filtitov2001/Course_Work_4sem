@@ -19,6 +19,7 @@ public class OrderToCustomerRequest {
     @NotBlank
     private final String orderDate;
     private final String orderComment;
+    private final String orderImage;
     @NotBlank
     private final String customerName;
     @NotBlank

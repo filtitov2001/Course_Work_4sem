@@ -31,6 +31,7 @@ public class Order {
 
     @Column(name = "comment", length = 1023)
     private String comment;
+    private String image;
 
     @ManyToOne
     private Customer customer;
