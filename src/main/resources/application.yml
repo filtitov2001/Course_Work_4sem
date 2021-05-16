@@ -9,9 +9,9 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://postgresqldb:5432/coursework
-    username: felikstitov
-    password: 12345678
+    url: jdbc:postgresql://ec2-54-155-35-88.eu-west-1.compute.amazonaws.com:5432/d5l6qd6ecd4mt7
+    username: tmoihkvpzmopej
+    password: 69eb9120ef5da0f80c1c72bb7c8c0ac4aa9f2dd65e02f0ae977ee28fad38a6ec
   jpa:
     database: postgresql
     show-sql: true
