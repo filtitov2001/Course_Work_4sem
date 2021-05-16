@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('../fonts/Lobster/Lobster-Regular.ttf');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,500&family=Roboto:wght@500&display=swap');
+
+html, body {
+height: 100%;
+width: 100%;
+margin: 0;
+padding: 0;
+position: relative;
+font: 14px/18px 'PT Sans';
+color: #404040;
+min-width: 940px; }
+hr {
+    border: none; /* Убираем границу */
+    background-color: white; /* Цвет линии */
+    color: white; /* Цвет линии для IE6-7 */
+    height: 3px; /* Толщина линии */
+}
+.text-title{
+  font: Marker Felt, fantasy;
+  font-weight:bold;
+  color:red;
+  border-bottom: 5px solid #ccc;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+}
+a{
+  font-family: "Lobster";
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+
+}
+#menu a:hover{
+  color:grey;
+  text-decoration: underline;
+}
+#menu  a{
+  font-size: 20px;
+  margin-top:15px;
+}
+
+#menu .col{
+  margin-top:15px;
+}
+#top {
+  height: 400px;
+    background: url("../img/main_bg.png");
+    background-color: #babec1;
+    background-size: cover;
+    color:white;
+    text-align: center;
+}
+
+#menu{
+  margin-left: 70px;
+  height: 100px;
+  width: 1080px;
+  background: url("../img/bg.png");
+}
+#menu .row{
+  padding-left: 10px;
+  width: 1080px;
+}
+
+#pay{
+  margin: 70px 0 90px;
+  position: relative;
+}
+#pay h1{
+  font-weight: bold;
+  text-align: center;
+    font-family: Lobster, serif;
+}
+#pay h2{
+  color:#e0c851;
+  font-family: 'Roboto', sans-serif;
+}
+#pay table{
+  width: 1000px;
+  table-layout: fixed;
+}
+#pay td{
+  width: 40%;
+  padding: 0 40px;
+  vertical-align: top;
+}
+#pays img{
+  width: 650px;
+}
+#pays h1{
+  font-weight: bold;
+  text-align: center;
+    font-family: Lobster, serif;
+}
+#pays h2{
+  font-size: 24px;
+  color:#e0c851;
+  font-family: 'Roboto', sans-serif;
+}
+#pays table{
+  width: 1000px;
+  table-layout: fixed;
+}
+#pays td{
+  width: 40%;
+  padding: 0 40px;
+  vertical-align: top;
+}
+p{
+  font-size: 15px;
+  font-family: 'Alegreya', serif;
+font-family: 'Roboto', sans-serif;
+}
+.oplataPhone {
+  width: 260px;
+  margin: 88px auto 66px;
+  font-family: 'Intro';
+  color: #4a4a4a;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: center; }
+  .oplataPhone div {
+    font-size: 30px;
+    color: #a13d3d;
+    margin-top: 14px; }
+    /* footer */
+    #footer {
+        background: url("../img/03_pattern.jpg");
+        background-color:#fff;
+        border-top: 2px dashed silver;
+        width: 100%;
+        float: left;
+    }
+    .main-content {
+        display: flex;
+    }
+    .main-content .box{
+        flex-basis:50%;
+        padding: 10px 20px;
+    }
+    .box h2{
+        font-size: 1.125rem;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    .box .content {
+        margin: 20px 0 0 0;
+        position: relative;
+    }
+    .box .content:before{
+        position: absolute;
+        content: '';
+        top:-10px;
+        height: 2px;
+        width: 100%;
+        background: #f12020;;
+    }
+
+    .left .content p {
+        text-align: justify;
+    }
+    .left .content .social {
+        margin: 20px 0 0 0;
+    }
+    .left .content .social a {
+        padding: 0 2px;
+    }
+    .left .content .social a span {
+        height:40px;
+        width: 40px;
+        color: black;
+        background: #916e6e;
+        line-height: 40px;
+        text-align: center;
+        font-size: 18px;
+        border-radius: 5px;
+        transition: 1s;
+    }
+    .left .content .social a span:hover{
+        background:#c15443;
+    }
+    .center .content .fas {
+        font-size: 1.4375rem;
+        background: #916e6e;
+        color:black;
+        height: 45px;
+        line-height: 45px;
+        width: 45px;
+        text-align: center;
+        border-radius: 50%;
+        transition: 1s;
+        cursor: pointer;
+    }
+    .center .content a {
+        color:black;
+        text-decoration: none;
+    }
+    .center .content a:hover {
+        color:#c15443;
+        transition: 1s;
+    }
+    .center .content .fas:hover {
+        background: #c15443;
+    }
+    .center .content .text{
+        font-size: 1.0625rem;
+        font-weight: 500;
+        padding-left: 10px;
+
+    }
+    .center .content .place{
+        margin:10px 0
+    }
+    .center .content .phone{
+        margin:10px 0
+    }
+    .right .content .form{
+        margin: 10px 0 0 0;
+    }

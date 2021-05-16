@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Ошибка</title>
+    <link rel="stylesheet" href="../static/css/login.css" th:href="@{/css/login.css}">
+    <link rel="shortcut icon" type="image/png" th:href="@{/icon/klipartz.com.png}"/>
+</head>
+<body>
+ <form class="form">
+     <div class="jumbotron alert-danger">
+         <h1>Oops. Something went wrong</h1>
+         <div class="image" style="width: 300px; height: 250px"></div>
+         <h3 th:text="${error}"></h3>
+         <h3 th:text="${status}"></h3>
+        </div>
+    </form>
+
+</body>
+</html>
