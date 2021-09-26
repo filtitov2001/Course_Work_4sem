@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ru.mirea.controllers.MainController</OriginalElement>
+  <nodes>
+    <node x="12.0" y="0.0">org.springframework.stereotype.Controller</node>
+    <node x="0.0" y="104.0">ru.mirea.controllers.MainController</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ru.mirea.controllers.MainController" target="org.springframework.stereotype.Controller">
+      <point x="0.0" y="-82.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="79.0" y="55.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

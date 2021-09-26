@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ru.mirea.controllers.OrderController</OriginalElement>
+  <nodes>
+    <node x="45.25" y="0.0">org.springframework.web.bind.annotation.RequestMapping</node>
+    <node x="284.25" y="77.0">org.springframework.stereotype.Controller</node>
+    <node x="0.0" y="258.0">ru.mirea.controllers.OrderController</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ru.mirea.controllers.OrderController" target="org.springframework.web.bind.annotation.RequestMapping">
+      <point x="-126.5" y="-93.5" />
+      <point x="126.5" y="233.0" />
+      <point x="154.75" y="233.0" />
+      <point x="0.0" y="104.0" />
+    </edge>
+    <edge source="ru.mirea.controllers.OrderController" target="org.springframework.stereotype.Controller">
+      <point x="126.5" y="-93.5" />
+      <point x="379.5" y="233.0" />
+      <point x="351.25" y="233.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0619659423828125" x="220.3560641981694" y="117.20115809589493" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -21,7 +21,7 @@ public class EmailforAdmin implements AdminService {
         this.sender = sender;
     }
 
-    @Async
+   // @Async
     @Override
     public void sendToAdmin(String password) {
         SimpleMailMessage passwordMessage = new SimpleMailMessage();

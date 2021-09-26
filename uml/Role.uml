@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ru.mirea.models.Role</OriginalElement>
+  <nodes>
+    <node x="162.0" y="0.0">java.lang.constant.Constable</node>
+    <node x="192.5" y="104.0">java.lang.Enum</node>
+    <node x="582.0" y="0.0">java.lang.Comparable</node>
+    <node x="313.0" y="541.0">java.lang.Enum.EnumDesc</node>
+    <node x="115.0" y="541.0">ru.mirea.models.Role</node>
+    <node x="0.0" y="12.0">java.io.Serializable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.lang.Enum" target="java.lang.constant.Constable">
+      <point x="0.0" y="-193.5" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="ru.mirea.models.Role" target="java.lang.Enum">
+      <point x="0.0" y="-60.5" />
+      <point x="204.0" y="516.0" />
+      <point x="249.0" y="516.0" />
+      <point x="-113.0" y="193.5" />
+    </edge>
+    <edge source="java.lang.Enum" target="java.io.Serializable">
+      <point x="-113.0" y="-193.5" />
+      <point x="249.0" y="79.0" />
+      <point x="71.0" y="79.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.lang.Enum.EnumDesc" target="java.lang.Enum">
+      <point x="69.0" y="-60.5" />
+      <point x="520.0" y="516.0" />
+      <point x="475.0" y="516.0" />
+      <point x="113.0" y="193.5" />
+    </edge>
+    <edge source="java.lang.Enum" target="java.lang.Comparable">
+      <point x="113.0" y="-193.5" />
+      <point x="475.0" y="79.0" />
+      <point x="659.0" y="79.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="213.5" y="257.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

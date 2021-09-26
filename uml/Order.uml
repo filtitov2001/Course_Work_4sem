@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ru.mirea.models.Order</OriginalElement>
+  <nodes>
+    <node x="581.0" y="44.0">javax.persistence.Entity</node>
+    <node x="736.0" y="22.0">lombok.Setter</node>
+    <node x="266.0" y="0.0">javax.persistence.Table</node>
+    <node x="18.0" y="22.0">lombok.Getter</node>
+    <node x="832.0" y="292.5">lombok.Setter.AnyAnnotation</node>
+    <node x="0.0" y="292.5">lombok.Getter.AnyAnnotation</node>
+    <node x="452.0" y="192.0">ru.mirea.models.Order</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ru.mirea.models.Order" target="lombok.Getter">
+      <point x="-59.25" y="-115.5" />
+      <point x="471.75" y="172.0" />
+      <point x="189.0" y="172.0" />
+      <point x="57.0" y="49.0" />
+    </edge>
+    <edge source="lombok.Getter.AnyAnnotation" target="lombok.Getter">
+      <point x="0.0" y="-15.0" />
+      <point x="-57.0" y="49.0" />
+    </edge>
+    <edge source="ru.mirea.models.Order" target="javax.persistence.Table">
+      <point x="-19.75" y="-115.5" />
+      <point x="511.25" y="162.0" />
+      <point x="413.5" y="162.0" />
+      <point x="0.0" y="71.0" />
+    </edge>
+    <edge source="lombok.Setter.AnyAnnotation" target="lombok.Setter">
+      <point x="0.0" y="-15.0" />
+      <point x="57.0" y="49.0" />
+    </edge>
+    <edge source="ru.mirea.models.Order" target="lombok.Setter">
+      <point x="59.25" y="-115.5" />
+      <point x="590.25" y="172.0" />
+      <point x="793.0" y="172.0" />
+      <point x="-57.0" y="49.0" />
+    </edge>
+    <edge source="ru.mirea.models.Order" target="javax.persistence.Entity">
+      <point x="19.75" y="-115.5" />
+      <point x="550.75" y="162.0" />
+      <point x="648.5" y="162.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="374.0" y="55.0" />
+  <SelectedNodes>
+    <node>ru.mirea.models.Order</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

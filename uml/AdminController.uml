@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ru.mirea.controllers.AdminController</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">org.springframework.web.bind.annotation.RequestMapping</node>
+    <node x="239.0" y="77.0">org.springframework.stereotype.Controller</node>
+    <node x="49.25" y="258.0">ru.mirea.controllers.AdminController</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ru.mirea.controllers.AdminController" target="org.springframework.stereotype.Controller">
+      <point x="79.25" y="-60.5" />
+      <point x="287.0" y="233.0" />
+      <point x="306.0" y="233.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="ru.mirea.controllers.AdminController" target="org.springframework.web.bind.annotation.RequestMapping">
+      <point x="-79.25" y="-60.5" />
+      <point x="128.5" y="233.0" />
+      <point x="109.5" y="233.0" />
+      <point x="0.0" y="104.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="152.0" y="55.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,7 +1,6 @@
 upload:
   path: "static"
 server:
-  port: 8080
   error:
     path: /error
     include-message: always
@@ -9,7 +8,7 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://postgresqldb:5432/coursework
+    url: jdbc:postgresql://localhost:5432/coursework
     username: felikstitov
     password: 12345678
   jpa:

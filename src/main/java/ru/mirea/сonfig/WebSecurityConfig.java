@@ -59,7 +59,8 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .and()
                     .formLogin()
                     .loginPage("/login")
-                .permitAll()
+                .permitAll().defaultSuccessUrl("/admin")
+                .and().rememberMe()
                 .and()
                     .logout(logout -> logout.deleteCookies());
 

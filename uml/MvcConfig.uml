@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ru.mirea.сonfig.MvcConfig</OriginalElement>
+  <nodes>
+    <node x="542.0" y="176.5">org.springframework.context.annotation.Configuration</node>
+    <node x="282.5" y="479.0">ru.mirea.сonfig.MvcConfig</node>
+    <node x="0.0" y="0.0">org.springframework.web.servlet.config.annotation.WebMvcConfigurer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ru.mirea.сonfig.MvcConfig" target="org.springframework.web.servlet.config.annotation.WebMvcConfigurer">
+      <point x="-88.5" y="-27.0" />
+      <point x="371.0" y="454.0" />
+      <point x="261.0" y="454.0" />
+      <point x="0.0" y="214.5" />
+    </edge>
+    <edge source="ru.mirea.сonfig.MvcConfig" target="org.springframework.context.annotation.Configuration">
+      <point x="88.5" y="-27.0" />
+      <point x="548.0" y="454.0" />
+      <point x="658.0" y="454.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="180.0" y="142.0" />
+  <SelectedNodes>
+    <node>ru.mirea.сonfig.MvcConfig</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

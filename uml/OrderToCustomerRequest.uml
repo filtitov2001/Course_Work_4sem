@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ru.mirea.dto.OrderToCustomerRequest</OriginalElement>
+  <nodes>
+    <node x="1151.2708333333333" y="337.0">lombok.ToString.Exclude</node>
+    <node x="39.02083333333326" y="33.0">lombok.Getter</node>
+    <node x="813.9999999999999" y="337.0">lombok.AllArgsConstructor.AnyAnnotation</node>
+    <node x="948.5208333333333" y="0.0">lombok.ToString</node>
+    <node x="0.0" y="337.0">lombok.Getter.AnyAnnotation</node>
+    <node x="170.0" y="214.0">ru.mirea.dto.OrderToCustomerRequest</node>
+    <node x="996.2708333333333" y="314.0">lombok.ToString.Include</node>
+    <node x="548.2708333333333" y="33.0">lombok.AllArgsConstructor</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="lombok.Getter.AnyAnnotation" target="lombok.Getter">
+      <point x="0.0" y="-15.0" />
+      <point x="75.0" y="194.0" />
+      <point x="96.02083333333326" y="194.0" />
+      <point x="-57.0" y="49.0" />
+    </edge>
+    <edge source="ru.mirea.dto.OrderToCustomerRequest" target="lombok.AllArgsConstructor">
+      <point x="0.0" y="-138.0" />
+      <point x="482.0" y="194.0" />
+      <point x="611.7708333333333" y="194.0" />
+      <point x="-63.5" y="49.0" />
+    </edge>
+    <edge source="lombok.ToString.Exclude" target="lombok.ToString">
+      <point x="0.0" y="-15.0" />
+      <point x="1202.7708333333333" y="194.0" />
+      <point x="1155.1875" y="194.0" />
+      <point x="82.66666666666669" y="82.0" />
+    </edge>
+    <edge source="ru.mirea.dto.OrderToCustomerRequest" target="lombok.ToString">
+      <point x="208.0" y="-138.0" />
+      <point x="690.0" y="194.0" />
+      <point x="989.8541666666665" y="194.0" />
+      <point x="-82.66666666666667" y="82.0" />
+    </edge>
+    <edge source="lombok.AllArgsConstructor.AnyAnnotation" target="lombok.AllArgsConstructor">
+      <point x="0.0" y="-15.0" />
+      <point x="888.9999999999999" y="184.0" />
+      <point x="738.7708333333333" y="184.0" />
+      <point x="63.5" y="49.0" />
+    </edge>
+    <edge source="ru.mirea.dto.OrderToCustomerRequest" target="lombok.Getter">
+      <point x="-208.0" y="-138.0" />
+      <point x="274.0" y="194.0" />
+      <point x="210.02083333333326" y="194.0" />
+      <point x="57.0" y="49.0" />
+    </edge>
+    <edge source="lombok.ToString.Include" target="lombok.ToString">
+      <point x="0.0" y="-38.0" />
+      <point x="1063.7708333333333" y="194.0" />
+      <point x="1072.5208333333333" y="194.0" />
+      <point x="0.0" y="82.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="627.5" y="245.0" />
+  <SelectedNodes>
+    <node>ru.mirea.dto.OrderToCustomerRequest</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

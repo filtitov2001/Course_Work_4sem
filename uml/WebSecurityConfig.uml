@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ru.mirea.сonfig.WebSecurityConfig</OriginalElement>
+  <nodes>
+    <node x="2021.6666666666667" y="230.0">org.springframework.context.annotation.Configuration</node>
+    <node x="1222.0" y="0.0">org.springframework.security.config.annotation.SecurityBuilder</node>
+    <node x="1037.0" y="356.0">org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter</node>
+    <node x="1119.5" y="241.0">org.springframework.core.annotation.Order</node>
+    <node x="0.0" y="1165.0">org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.DefaultPasswordEncoderAuthenticationManagerBuilder</node>
+    <node x="1996.6666666666667" y="686.5">org.springframework.security.config.annotation.web.configuration.EnableWebSecurity</node>
+    <node x="1534.0" y="1165.0">org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.UserDetailsServiceDelegator</node>
+    <node x="1210.5" y="104.0">org.springframework.security.config.annotation.SecurityConfigurer</node>
+    <node x="693.0" y="1121.0">org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.LazyPasswordEncoder</node>
+    <node x="1939.0" y="1121.0">ru.mirea.сonfig.WebSecurityConfig</node>
+    <node x="1251.5" y="253.0">org.springframework.security.config.annotation.web.WebSecurityConfigurer</node>
+    <node x="1019.0" y="1132.0">org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.AuthenticationManagerDelegator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ru.mirea.сonfig.WebSecurityConfig" target="org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter">
+      <point x="-99.33333333333326" y="-104.5" />
+      <point x="1988.6666666666667" y="1091.0" />
+      <point x="1450.1000000000001" y="1091.0" />
+      <point x="183.60000000000014" y="357.5" />
+    </edge>
+    <edge source="ru.mirea.сonfig.WebSecurityConfig" target="org.springframework.context.annotation.Configuration">
+      <point x="99.33333333333348" y="-104.5" />
+      <point x="2188.166666666667" y="331.0" />
+      <point x="2195.666666666667" y="331.0" />
+      <point x="58.0" y="38.0" />
+    </edge>
+    <edge source="org.springframework.security.config.annotation.web.configuration.EnableWebSecurity" target="org.springframework.context.annotation.Configuration">
+      <point x="0.0" y="-27.0" />
+      <point x="2087.166666666667" y="331.0" />
+      <point x="2079.666666666667" y="331.0" />
+      <point x="-58.0" y="38.0" />
+    </edge>
+    <edge source="org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.DefaultPasswordEncoderAuthenticationManagerBuilder" target="org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter">
+      <point x="168.25" y="-60.5" />
+      <point x="504.75" y="1091.0" />
+      <point x="1082.9" y="1091.0" />
+      <point x="-183.5999999999999" y="357.5" />
+    </edge>
+    <edge source="org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.DefaultPasswordEncoderAuthenticationManagerBuilder" target="org.springframework.security.config.annotation.SecurityBuilder">
+      <point x="-168.25" y="-60.5" />
+      <point x="168.25" y="79.0" />
+      <point x="1249.6666666666667" y="79.0" />
+      <point x="-55.33333333333326" y="27.0" />
+    </edge>
+    <edge source="org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter" target="org.springframework.core.annotation.Order">
+      <point x="-114.75" y="-357.5" />
+      <point x="1151.75" y="331.0" />
+      <point x="1175.5" y="331.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.LazyPasswordEncoder" target="org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter">
+      <point x="0.0" y="-104.5" />
+      <point x="846.0" y="1101.0" />
+      <point x="1174.7" y="1101.0" />
+      <point x="-91.79999999999995" y="357.5" />
+    </edge>
+    <edge source="org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter" target="org.springframework.security.config.annotation.web.WebSecurityConfigurer">
+      <point x="114.75" y="-357.5" />
+      <point x="1381.25" y="331.0" />
+      <point x="1357.5" y="331.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.springframework.security.config.annotation.web.WebSecurityConfigurer" target="org.springframework.security.config.annotation.SecurityBuilder">
+      <point x="53.0" y="-15.0" />
+      <point x="1410.0" y="79.0" />
+      <point x="1360.3333333333333" y="79.0" />
+      <point x="55.33333333333326" y="27.0" />
+    </edge>
+    <edge source="org.springframework.security.config.annotation.web.WebSecurityConfigurer" target="org.springframework.security.config.annotation.SecurityConfigurer">
+      <point x="-53.0" y="-15.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.AuthenticationManagerDelegator" target="org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter">
+      <point x="0.0" y="-93.5" />
+      <point x="0.0" y="357.5" />
+    </edge>
+    <edge source="org.springframework.security.config.annotation.SecurityConfigurer" target="org.springframework.security.config.annotation.SecurityBuilder">
+      <point x="0.0" y="-38.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.UserDetailsServiceDelegator" target="org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter">
+      <point x="0.0" y="-60.5" />
+      <point x="1726.5" y="1101.0" />
+      <point x="1358.3000000000002" y="1101.0" />
+      <point x="91.80000000000018" y="357.5" />
+    </edge>
+    <edge source="ru.mirea.сonfig.WebSecurityConfig" target="org.springframework.security.config.annotation.web.configuration.EnableWebSecurity">
+      <point x="0.0" y="-104.5" />
+      <point x="0.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6880900406652267" x="979.6712535947573" y="597.6517241684265" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
