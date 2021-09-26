@@ -30,7 +30,7 @@ public class LoginController {
             return "redirect:/admin";
         }
 
-        emailService.sendToAdmin(WebSecurityConfig.getNewPassword());
+        //emailService.sendToAdmin(WebSecurityConfig.getNewPassword());
         return "login";
     }
 
