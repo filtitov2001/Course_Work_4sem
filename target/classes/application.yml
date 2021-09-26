@@ -8,15 +8,16 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/coursework
-    username: felikstitov
-    password: 12345678
+    url: ${JDBC_DATABASE_URL:jdbc:postgresql://localhost:5432/coursework}
+    username: ${JDBC_DATABASE_USERNAME:felikstitov}
+    password: ${JDBC_DATABASE_PASSWORD:12345678}
   jpa:
     database: postgresql
-    show-sql: true
+    show-sql: false
     open-in-view: false
     hibernate:
-      ddl-auto: create
+      ddl-auto: update
+    generate-ddl: true
   servlet:
     multipart:
       max-file-size: 800MB
@@ -25,8 +26,8 @@ spring:
     protocol: smtp
     host: smtp.gmail.com
     port: 587
-    username: servermail781227@gmail.com
-    password: Admin1905!
+    username: ${EMAIL_USERNAME:servermail781227@gmail.com}
+    password: ${EMAIL_USERNAME:Admin1905!}
     properties:
       mail:
         smtp:
