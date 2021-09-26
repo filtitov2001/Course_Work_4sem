@@ -51,8 +51,8 @@ public class OrderService {
         order.setImage(filePath);
         order.setCustomer(customer);
         orderRepository.save(order);
-      //  if(emailService!=null)
-        //    emailService.send("Поступил новый заказ", request.getCustomerEmail());
+        if(emailService!=null)
+            emailService.send("Поступил новый заказ", request.getCustomerEmail());
     }
 
     public void delete(long id) {
