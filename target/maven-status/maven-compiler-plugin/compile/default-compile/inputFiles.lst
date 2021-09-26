@@ -1,4 +1,4 @@
-/Users/felikstitov/IdeaProjects/Course_Work_4sem/src/main/java/ru/mirea/?onfig/MvcConfig.java
+/Users/felikstitov/IdeaProjects/Course_Work_4sem/src/main/java/ru/mirea/сonfig/MvcConfig.java
 /Users/felikstitov/IdeaProjects/Course_Work_4sem/src/main/java/ru/mirea/services/CustomerService.java
 /Users/felikstitov/IdeaProjects/Course_Work_4sem/src/main/java/ru/mirea/services/AdminService.java
 /Users/felikstitov/IdeaProjects/Course_Work_4sem/src/main/java/ru/mirea/dto/OrderToCustomerRequest.java
@@ -8,12 +8,12 @@
 /Users/felikstitov/IdeaProjects/Course_Work_4sem/src/main/java/ru/mirea/services/NotifyService.java
 /Users/felikstitov/IdeaProjects/Course_Work_4sem/src/main/java/ru/mirea/CourseWorkApplication.java
 /Users/felikstitov/IdeaProjects/Course_Work_4sem/src/main/java/ru/mirea/models/Role.java
-/Users/felikstitov/IdeaProjects/Course_Work_4sem/src/main/java/ru/mirea/?onfig/WebSecurityConfig.java
+/Users/felikstitov/IdeaProjects/Course_Work_4sem/src/main/java/ru/mirea/сonfig/WebSecurityConfig.java
 /Users/felikstitov/IdeaProjects/Course_Work_4sem/src/main/java/ru/mirea/controllers/MainController.java
 /Users/felikstitov/IdeaProjects/Course_Work_4sem/src/main/java/ru/mirea/services/FileUploadService.java
 /Users/felikstitov/IdeaProjects/Course_Work_4sem/src/main/java/ru/mirea/services/FileUploadServiceImpl.java
 /Users/felikstitov/IdeaProjects/Course_Work_4sem/src/main/java/ru/mirea/services/EmailService.java
-/Users/felikstitov/IdeaProjects/Course_Work_4sem/src/main/java/ru/mirea/?onfig/FileConfig.java
+/Users/felikstitov/IdeaProjects/Course_Work_4sem/src/main/java/ru/mirea/сonfig/FileConfig.java
 /Users/felikstitov/IdeaProjects/Course_Work_4sem/src/main/java/ru/mirea/dto/CustomerResponse.java
 /Users/felikstitov/IdeaProjects/Course_Work_4sem/src/main/java/ru/mirea/repositories/OrderRepository.java
 /Users/felikstitov/IdeaProjects/Course_Work_4sem/src/main/java/ru/mirea/controllers/AdminController.java

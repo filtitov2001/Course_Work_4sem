@@ -14,11 +14,11 @@ ru/mirea/controllers/OrderController.class
 ru/mirea/models/Order.class
 ru/mirea/dto/CustomerResponse.class
 ru/mirea/services/CustomerService.class
-ru/mirea/?onfig/WebSecurityConfig.class
+ru/mirea/сonfig/WebSecurityConfig.class
 ru/mirea/services/NotifyService.class
 ru/mirea/models/Role.class
-ru/mirea/?onfig/MvcConfig.class
-ru/mirea/?onfig/FileConfig.class
+ru/mirea/сonfig/MvcConfig.class
+ru/mirea/сonfig/FileConfig.class
 ru/mirea/repositories/OrderRepository.class
 ru/mirea/CourseWorkApplication.class
 ru/mirea/services/AdminService.class
