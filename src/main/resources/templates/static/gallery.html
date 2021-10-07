@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <title>Наши торты</title>
+    <link rel="shortcut icon" type="image/png" th:href="@{/icon/klipartz.com.png}"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css" th:href="@{/css/bootstrap.min.css}">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/galery.css" th:href="@{/css/galery.css}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
+</head>
+<body>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<div id="top">
+    <header class="header">
+
+        <ul class="nav justify-content-center">
+            <li class="nav-item" style="margin-top: 10px; color: white">
+                <a class="nav-link" href="tel: 89265967989"><span class="fas fa-phone-alt" style="color: white"></span>
+                    <span class="text" style="color: white">8-926-596-79-89</span></a>
+            </li>
+            <li class="nav-item" style="margin-top: 10px; color: white">
+                <hr align="center" width="100" size="1" style="color: white"/>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" th:href="@{/}">
+                    <span class="text-title" style="color: #e8b84c"><h1>CAKES</h1></span></a>
+            </li>
+            <li class="nav-item" style="margin-top: 10px; color: white">
+                <hr align="center" width="100" size="1" style="color: white"/>
+            </li>
+            <li class="nav-item" style="margin-top: 10px; color: white">
+                <a class="nav-link" ><span class="fas fa-city" style="color: white"></span>
+                    <span class="text" style="color: white">Москва</span></a>
+            </li>
+            <!--      <li class="nav-item">
+                      <a class="nav-link" href="Login.html"><span class="fas fa-user-shield"></span>
+                          <span class="text">Войти</span></a>
+                  </li>-->
+        </ul>
+        <center>
+            <div id="menu">
+                <div class="container">
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item"><a class="nav-link" th:href="@{/how-do-it}">Как мы это делаем</a></li>
+                        <li class="nav-item"><a class="nav-link" th:href="@{/gallery}">Наши торты</a></li>
+                        <li class="nav-item"><a class="nav-link" th:href="@{/create}">Заказать торт</a></li>
+                        <li class="nav-item"><a class="nav-link" th:href="@{/delivery}">Оплата и доставка</a></li>
+                        <li class="nav-item"><a class="nav-link" th:href="@{/contacts}">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+        </center>
+    </header>
+    <div id="tort">
+        <img src="img/devCake.png" th:src="@{img/devCake.png}">
+    </div>
+</div>
+<div id="back">
+    <center><div id="torti">
+        <center><h1>Наши торты</h1></center>
+        <center><img src="img/timeIcon.png" th:src="@{img/timeIcon.png}" alt=""></center>
+        <center><p>Каждый торт от компании CAKES - это не просто кондитерское изделие, это очень красивое и невероятно вкусное произведение кулинарного искусства, достойное стать украшением любого стола. Современные технологии и свежие, натуральные продукты в сочетании с богатым опытом наших кондитеров позволяют ежедневно радовать своих клиентов великолепной продукцией.</p>
+        </center>
+    </div></center>
+</div>
+<div class="body4">
+    <form>
+        <center> <p><input type="search" name="q" placeholder="Поиск по сайту">
+            <input type="submit" value="Найти" th:href="@{/gallery}"></p></center>
+    </form>
+    <section class="galery">
+        <h2 class="title" style="margin-top: -30px">Галерея</h2>
+        <div class="galery-lst">
+            <a href="img/torti.jpg" th:href="@{img/torti.jpg}"
+               class="galery-itm">
+                <div class="galery-hover">Посмотреть</div>
+                <img src="img/torti.jpg" th:src="@{img/torti.jpg}">
+            </a>
+            <a href="img/torti.jpg" th:href="@{img/torti.jpg}"
+               class="galery-itm">
+                <div class="galery-hover">Посмотреть</div>
+                <img src="img/torti.jpg" th:src="@{img/torti.jpg}">
+            </a>
+            <a href="img/torti.jpg" th:href="@{img/torti.jpg}"
+               class="galery-itm">
+                <div class="galery-hover">Посмотреть</div>
+                <img src="img/torti.jpg" th:src="@{img/torti.jpg}">
+            </a>
+            <a href="img/torti.jpg" th:href="@{img/torti.jpg}"
+               class="galery-itm">
+                <div class="galery-hover">Посмотреть</div>
+                <img src="img/torti.jpg" th:src="@{img/torti.jpg}">
+            </a>
+            <a href="img/torti.jpg" th:href="@{img/torti.jpg}"
+               class="galery-itm">
+                <div class="galery-hover">Посмотреть</div>
+                <img src="img/torti.jpg" th:src="@{img/torti.jpg}">
+            </a>
+            <a href="img/torti.jpg" th:href="@{img/torti.jpg}"
+               class="galery-itm">
+                <div class="galery-hover">Посмотреть</div>
+                <img src="img/torti.jpg" th:src="@{img/torti.jpg}">
+            </a>
+            <a href="img/torti.jpg" th:href="@{img/torti.jpg}"
+               class="galery-itm">
+                <div class="galery-hover">Посмотреть</div>
+                <img src="img/torti.jpg" th:src="@{img/torti.jpg}">
+            </a>
+            <a href="img/torti.jpg" th:href="@{img/torti.jpg}"
+               class="galery-itm">
+                <div class="galery-hover">Посмотреть</div>
+                <img src="img/torti.jpg" th:src="@{img/torti.jpg}">
+            </a>
+        </div>
+    </section>
+</div>
+<div id="footer">
+    <div class="main-content">
+        <div class="left box">
+            <h2 style="color: white">Социальные сети</h2>
+            <div class="content">
+                <p style="color: white">Вы можете найти нас в социальных сетях</p>
+                <div class="social">
+                    <a href="https://www.facebook.com"><span class="fab fa-facebook-f" style="color: white"></span></a>
+                    <a href="https://www.twitter.com/"><span class="fab fa-twitter" style="color: white"></span></a>
+                    <a href="https://www.instagram.com/"><span class="fab fa-instagram" style="color: white">
+
+                    </span></a>
+                    <a href="https://www.youtube.com/"><span class="fab fa-youtube" style="color: white"></span></a>
+                </div>
+            </div>
+        </div>
+        <div class="center box">
+            <h2 style="color: white">Контакты</h2>
+            <div class="content">
+                <p style="color: white">Свяжитесь с нами</p>
+                <div class="place">
+                    <a th:href="@{/templates/static/contacts}"><span class="fas fa-map-marker-alt" style="color: white"></span>
+                        <span class="text" style="color: white">Москва</span></a>
+                </div>
+                <div class="phone">
+                    <a href="tel: 89265967989"><span class="fas fa-phone-alt" style="color: white"></span>
+                        <span class="text" style="color: white">8-926-596-79-89</span></a>
+                </div>
+                <div class="email">
+                    <a href="mailto: fil.titov@mail.ru" ><span class="fas fa-envelope" style="color: white"></span>
+                        <span class="text" style="color: white">fil.titov@mail.ru</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+<script>
+    $(".galery-lst").magnificPopup({
+        delegate: "a", type: "image", gallery: {
+            enabled:true
+        }
+    })
+</script>
+</body>
+</html>
