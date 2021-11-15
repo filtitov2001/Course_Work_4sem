@@ -12,6 +12,7 @@
 /Users/felikstitov/IdeaProjects/Course_Work_4sem/src/main/java/ru/mirea/controllers/MainController.java
 /Users/felikstitov/IdeaProjects/Course_Work_4sem/src/main/java/ru/mirea/services/FileUploadService.java
 /Users/felikstitov/IdeaProjects/Course_Work_4sem/src/main/java/ru/mirea/services/FileUploadServiceImpl.java
+/Users/felikstitov/IdeaProjects/Course_Work_4sem/src/main/java/ru/mirea/controllers/CustomerController.java
 /Users/felikstitov/IdeaProjects/Course_Work_4sem/src/main/java/ru/mirea/services/EmailService.java
 /Users/felikstitov/IdeaProjects/Course_Work_4sem/src/main/java/ru/mirea/сonfig/FileConfig.java
 /Users/felikstitov/IdeaProjects/Course_Work_4sem/src/main/java/ru/mirea/dto/CustomerResponse.java

@@ -1,5 +1,6 @@
 package ru.mirea.models;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -33,6 +34,7 @@ public class Order {
     private String comment;
     private String image;
 
+    @JsonIgnore
     @ManyToOne
     private Customer customer;
 

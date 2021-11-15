@@ -18,6 +18,7 @@ ru/mirea/сonfig/WebSecurityConfig.class
 ru/mirea/services/NotifyService.class
 ru/mirea/models/Role.class
 ru/mirea/сonfig/MvcConfig.class
+ru/mirea/controllers/CustomerController.class
 ru/mirea/сonfig/FileConfig.class
 ru/mirea/repositories/OrderRepository.class
 ru/mirea/CourseWorkApplication.class
